@@ -1,0 +1,22 @@
+-Kiến trúc đơn tâng
+Phần mềm máy tính đơn giản gồm có:
+user interface: form nhập dữ liệu, các phím
+business rule: xử lý, thực hiện các phép tính
+data storage: các biến lưu trữ kết quả các phép tính
+
+-Kiến trúc 2 tầng (Fat client):
+Website
+user interface: giao diện tương tác người dùng, form yêu cầu dữ liệu
+business rule: code font-end xử lý dữ liệu nhận được từ data storage trên máy client
+data storage: lưu trữ dữ liệu ở 1 máy server khác.
+
+-Kiến trúc 2 tâng (Fat server)
+Website
+user interface: giao diện tương tác người dùng, form yêu cầu dữ liệu
+business rule: code back-end xử lý dữ liệu từ data storage trên máy server
+data storage: lưu trữ dữ liệu trên máy server.
+
+-Kiến trúc đa tầng (n-tiered)
+user interface: giao diện tương tác người dùng, form yêu cầu dữ liệu
+business rule: code back-end xử lý dữ liệu nhận được từ data storage trên máy web-server
+data storage: lưu trữ dữ liệu ở 1 máy data-server khác.
