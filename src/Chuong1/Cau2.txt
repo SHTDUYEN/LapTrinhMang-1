@@ -1,0 +1,5 @@
+Bài 2:
+Zalo là 1 trong những ứng dụng sử dụng mô hình client-server.
+ Ứng dụng – Client gửi yêu cầu (đăng status, upload hình, lấy danh sách nhạc, nhắn 1 tin nhắn,…) tới một máy chủ – Server.
+ Máy chủ – Server sẽ tiếp nhận thông tin, xử lý thông tin, lưu trữ thông tin xuống cơ sở dữ liệu (Database) và trả về kết quả tương ứng cho ứng dụng – Client.
+ Client hiển thị kết quả cho người dùng.

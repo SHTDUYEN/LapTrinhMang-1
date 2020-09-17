@@ -1,0 +1,8 @@
+Bài 1:
+- HTTP là giao thức cấp độ ứng dụng cho các hệ thống thông tin phân phối, cộng tác, đa phương tiện
+- HTTPS viết tắt của Hyper Text Transfer Protocol Secure (giao thức truyền tải siêu văn bản bảo mật) là phiên bản an toàn của HTTP.
+- HTTPS chính là giao thức của HTTP nhưng có thêm chứng chỉ SSL ( secure Scokets Layer) giúp mã hóa dữ liệu truyền tải nhằm gia bảo mật giữa Web sever đến các trình duyệt web. Nói cách khác HTTPS là phiên bản HTTP nhưng an toàn hơn, bảo mật hơn.
+- PORT: HTTP dùng port 80 còn HTTPS dùng port 443
+- MÃ HÓA : HTTPS được mã hóa thông tin, sử dụng SSL/TSL còn HTTP thì không.
+- MỨC ĐỘ BẢO MẬT: HTTPS hỗ trợ việc xác thức tính đích danh của website mà máy khách truy cập thông qua việc kiểm tra xác thực bảo mật
+- TỐC ĐỘ PHẢN HỒI: HTTP có tốc độ phản hồi nhanh hơn HTTPS rất nhiều
