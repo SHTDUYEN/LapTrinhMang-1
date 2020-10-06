@@ -1,14 +1,14 @@
 package Chuong2.Bai6;
 
 public class Account2 {
-    long balance;
-    boolean ban = false;
+    private double balance;
+    boolean ban = false; //xác định tài nguyên chưa có tuyến trình nào chiếm giữ
 
     Account2() {
         balance = 0;
     }
 
-    public synchronized void setBalance(long amount) {
+    public synchronized void setBalance(double amount) {
         if (ban) {
             try {
                 wait();
@@ -21,7 +21,7 @@ public class Account2 {
         notify();
     }
 
-    public synchronized long getBalance() {
+    public synchronized double getBalance() {
         if (!ban) {
             try {
                 wait();
