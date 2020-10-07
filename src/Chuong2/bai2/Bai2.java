@@ -140,6 +140,7 @@ public class Bai2 {
         }
         System.out.println("Chu vi: "+hinhChuNhat.getChuVi());
         System.out.println("Dien tich: "+hinhChuNhat.getDienTich());
+        //các luồng vẫn chạy song song
     }
 
 }
